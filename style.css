@@ -55,23 +55,19 @@ body {
     background-color: white;
     padding: 20px 30px 10px 30px;
     border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bitmoji-header {
+    width: 80px;
 }
 
 .top-bar h1 {
     margin: 0;
     color: #1f3c88;
     font-size: 32px;
-}
-
-/* Bitmoji */
-.intro {
-    background-color: white;
-    padding: 20px 30px;
-}
-
-.bitmoji-grand {
-    width: 140px;
-    border-radius: 20px;
 }
 
 /* Bannière */
