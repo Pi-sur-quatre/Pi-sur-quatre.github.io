@@ -1,26 +1,41 @@
+/* ===== BASE GÉNÉRALE ===== */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    line-height: 1.6;
     padding: 0;
+    line-height: 1.6;
     background-color: white;
     color: #222;
 }
 
-h1 {color: darkblue;}
+h1 {
+    color: #1f3c88;
+}
 
-a {text-decoration: none; color: blue;}
+h2 {
+    margin-top: 30px;
+    color: darkred;
+}
 
-ul {padding-left: 20px;}
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
 
-hr {margin: 20px 0;}
+ul {
+    padding-left: 20px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+}
 
+hr {
+    margin: 20px 0;
+}
 
-h2 {margin-top: 30px;color: darkred;}
-
-ul {background-color: #f5f5f5; padding: 15px; border-radius: 10px;}
-
-a {font-weight: bold;}
+/* ===== PAGES DE CONTENU ===== */
 
 .page-contenu {
     max-width: 800px;
@@ -28,13 +43,14 @@ a {font-weight: bold;}
     padding: 20px;
 }
 
+/* ===== BOUTON PDF ===== */
+
 .btn-pdf {
     display: inline-block;
     background-color: #2c7be5;
     color: white;
     padding: 10px 15px;
     border-radius: 8px;
-    text-decoration: none;
     margin-top: 10px;
 }
 
@@ -42,41 +58,37 @@ a {font-weight: bold;}
     background-color: #1a5fc1;
 }
 
+/* ===== HEADER ===== */
 
-
-/* ===== PAGE D'ACCUEIL ===== */
-
-body {
-    margin: 0;
-}
-
-/* Bandeau haut */
 .top-bar {
     background-color: white;
     padding: 20px 30px 10px 30px;
     border-bottom: 1px solid #ddd;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.bitmoji-header {
-    width: 80px;
-}
-
 .top-bar h1 {
     margin: 0;
-    color: #1f3c88;
     font-size: 32px;
 }
 
-/* Bannière */
+.bitmoji-header {
+    width: 80px;
+    height: auto;
+}
+
+/* ===== BANNIÈRE ===== */
+
 .hero {
     width: 100%;
     min-height: 320px;
     background-image: url("/banniere-maths.jpg");
     background-size: cover;
     background-position: center;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,8 +104,7 @@ body {
 }
 
 .hero-overlay h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
     color: #1f3c88;
     font-size: 36px;
 }
@@ -103,7 +114,8 @@ body {
     font-size: 18px;
 }
 
-/* Bloc classes */
+/* ===== BLOCS NIVEAUX ===== */
+
 .levels {
     background-color: #dff2e1;
     text-align: center;
@@ -124,7 +136,6 @@ body {
     display: inline-block;
     background-color: white;
     color: #2f5d50;
-    text-decoration: none;
     font-size: 32px;
     font-weight: bold;
     padding: 20px 50px;
@@ -138,7 +149,8 @@ body {
     background-color: #f5fff6;
 }
 
-/* Footer */
+/* ===== FOOTER ===== */
+
 .footer {
     text-align: center;
     padding: 20px;
