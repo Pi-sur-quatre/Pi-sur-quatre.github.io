@@ -77,7 +77,8 @@ hr {
 
 .bitmoji-header {
     width: 80px;
-    height: auto;
+    height: 80px;
+    object-fit: contain;
 }
 
 /* ===== BANNIÈRE ===== */
