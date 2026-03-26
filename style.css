@@ -34,3 +34,113 @@ a {font-weight: bold;}
 .btn-pdf:hover {
     background-color: #1a5fc1;
 }
+
+
+
+/* ===== PAGE D'ACCUEIL ===== */
+
+body {
+    margin: 0;
+}
+
+/* Bandeau haut */
+.top-bar {
+    background-color: white;
+    padding: 20px 30px 10px 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-bar h1 {
+    margin: 0;
+    color: #1f3c88;
+    font-size: 32px;
+}
+
+/* Bitmoji */
+.intro {
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.bitmoji-grand {
+    width: 140px;
+    border-radius: 20px;
+}
+
+/* Bannière */
+.hero {
+    width: 100%;
+    min-height: 320px;
+    background-image: url("/banniere-maths.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 25px 35px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 700px;
+    margin: 20px;
+}
+
+.hero-overlay h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1f3c88;
+    font-size: 36px;
+}
+
+.hero-overlay p {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Bloc classes */
+.levels {
+    background-color: #dff2e1;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.levels h2 {
+    margin-top: 0;
+    color: #2f5d50;
+    font-size: 30px;
+}
+
+.level-buttons {
+    margin-top: 30px;
+}
+
+.level-card {
+    display: inline-block;
+    background-color: white;
+    color: #2f5d50;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 50px;
+    margin: 10px;
+    border-radius: 18px;
+    border: 2px solid #9ac7a0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.level-card:hover {
+    background-color: #f5fff6;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+    background-color: white;
+}
+
