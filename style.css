@@ -58,6 +58,22 @@ hr {
     background-color: #1a5fc1;
 }
 
+/* ===== BOUTON RETOUR AUX CHAPITRES ===== */
+.btn-retour {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #eee;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-retour:hover {
+    background-color: #ddd;
+}
+
 /* ===== HEADER ===== */
 
 .top-bar {
