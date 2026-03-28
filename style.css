@@ -238,4 +238,22 @@ hr {
 
 .chapitre-card {
     border: 2px solid #9ac7a0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+
+.chapitres {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.chapitre-card:hover {
+    background-color: #f0faf2;
+    transform: translateX(5px);
+}
+
+.page-contenu h1 {
+    color: #2f5d50;
 }
