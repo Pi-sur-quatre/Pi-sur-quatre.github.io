@@ -179,3 +179,51 @@ hr {
     background-color: white;
 }
 
+/* ===== PAGES NIVEAUX ===== */
+/* Sous-titre */
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Bloc chapitres */
+.chapitres {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Carte chapitre */
+.chapitre-card {
+    display: block;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: 2px solid #e0e0e0;
+    text-decoration: none;
+    color: #1f3c88;
+    font-weight: bold;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.chapitre-card:hover {
+    background-color: #f5faff;
+    transform: translateX(5px);
+}
+
+/* Bouton retour */
+.btn-retour {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #eee;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.btn-retour:hover {
+    background-color: #ddd;
+}
