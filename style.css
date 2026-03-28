@@ -206,3 +206,13 @@ hr {
     background-color: #f0faf2;
     transform: translateX(5px);
 }
+
+.positif {
+    color: green;
+    font-weight: bold;
+}
+
+.negatif {
+    color: red;
+    font-weight: bold;
+}
