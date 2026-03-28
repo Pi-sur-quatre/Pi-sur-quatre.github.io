@@ -227,3 +227,15 @@ hr {
 .btn-retour:hover {
     background-color: #ddd;
 }
+
+
+.bloc-chapitres {
+    background-color: #dff2e1;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.chapitre-card {
+    border: 2px solid #9ac7a0;
+}
