@@ -322,3 +322,30 @@ hr {
     border-radius: 20px;
 }
 
+/* ===== PAGE 5e PAR THÈMES ===== */
+
+.themes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.theme-bloc {
+    background-color: #dff2e1;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.theme-bloc h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #2f5d50;
+    font-size: 28px;
+}
+
+.chapitres-theme {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
