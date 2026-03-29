@@ -265,6 +265,17 @@ hr {
     margin-bottom: 30px;
 }
 
+/* ===== BLOC GAUCHE ===== */
+.bloc-droite {
+    background-color: #dff2e1;
+    padding: 20px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 /* Boutons documents */
 
 .btn-doc {
