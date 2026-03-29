@@ -349,3 +349,8 @@ hr {
     flex-direction: column;
     gap: 15px;
 }
+
+.page-niveau {
+    max-width: 1000px;
+    margin: 40px auto;
+}
