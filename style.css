@@ -216,3 +216,50 @@ hr {
     color: red;
     font-weight: bold;
 }
+
+/* ===== COLONNE GAUCHE ===== */
+
+.colonne-gauche {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+/* Boutons documents */
+
+.btn-doc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    border-radius: 12px;
+
+    text-decoration: none;
+    color: #333;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-doc:hover {
+    background-color: #e8f5ea;
+    transform: translateX(5px);
+}
+
+/* Image bitmoji */
+
+.btn-doc img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+/* Texte */
+
+.btn-doc span {
+    font-weight: bold;
+}
