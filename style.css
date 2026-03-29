@@ -34,6 +34,14 @@ hr {
     margin: 20px 0;
 }
 
+.fond-cahier {
+    background-color: #fbfdff;
+    background-image: 
+        linear-gradient(#f0f0f0 1px, transparent 1px),
+        linear-gradient(90deg, #f0f0f0 1px, transparent 1px);
+    background-size: 25px 25px;
+}
+
 /* ===== CONTENEURS DE PAGE ===== */
 
 .page-contenu {
