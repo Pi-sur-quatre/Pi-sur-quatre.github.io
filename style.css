@@ -37,7 +37,7 @@ hr {
 /* ===== CONTENEUR DES PAGES DE CONTENU ===== */
 
 .page-contenu {
-    max-width: 800px;
+    max-width: 1400px;
     margin: 40px auto;
     padding: 20px;
 }
@@ -215,6 +215,45 @@ hr {
 .negatif {
     color: red;
     font-weight: bold;
+}
+
+/* ===== LAYOUT GLOBAL DES CHAPITRES ===== */
+
+.layout {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.colonne-gauche {
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.contenu-principal {
+    flex: 1;
+    min-width: 0;
+}
+
+.colonne-droite {
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.bloc-droite {
+    background-color: #dff2e1;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.bloc-droite h2 {
+    margin-top: 0;
+    color: #2f5d50;
+    font-size: 22px;
+}
+
+.bloc-droite p {
+    margin-bottom: 0;
 }
 
 /* ===== COLONNE GAUCHE ===== */
