@@ -138,7 +138,7 @@ hr {
 .hero {
     width: 100%;
     min-height: 320px;
-    background-image: url("/banniere-maths.jpg");
+    background-image: url("images/banniere-maths.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
