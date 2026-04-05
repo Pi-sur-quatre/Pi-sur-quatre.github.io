@@ -279,6 +279,7 @@ hr {
 
 .theme-depliable[open] {
     padding-bottom: 25px;
+    background-color: #cfe8d3;
 }
 
 .theme-depliable summary {
@@ -287,10 +288,16 @@ hr {
     font-weight: bold;
     cursor: pointer;
     color: #2f5d50;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background-color: #dff2e1; /* ✅ le vert léger */
+    padding: 15px 20px;
+    border-radius: 12px;
 }
+
 
 .theme-depliable summary::-webkit-details-marker {
     display: none;
