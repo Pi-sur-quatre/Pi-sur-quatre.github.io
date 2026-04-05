@@ -34,9 +34,11 @@ hr {
     margin: 20px 0;
 }
 
+/* ===== FOND CAHIER ===== */
+
 .fond-cahier {
     background-color: #fbfdff;
-    background-image: 
+    background-image:
         linear-gradient(#f0f0f0 1px, transparent 1px),
         linear-gradient(90deg, #f0f0f0 1px, transparent 1px);
     background-size: 25px 25px;
@@ -93,13 +95,14 @@ hr {
     padding: 10px 15px;
     border-radius: 12px;
     color: #333;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease, background-color 0.2s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .btn-doc:hover {
     background-color: #e8f5ea;
     transform: translateX(5px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
 }
 
 .btn-doc img {
@@ -243,32 +246,72 @@ hr {
     border-radius: 12px;
     border: 2px solid #9ac7a0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s ease, background-color 0.2s ease;
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .chapitre-card:hover {
     background-color: #f0faf2;
     transform: translateX(5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.10);
 }
 
 .themes-container {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     margin-top: 30px;
 }
 
-.theme-bloc {
-    background-color: #dff2e1;
-    padding: 25px;
-    border-radius: 20px;
+/* ===== BLOCS DÉPLIABLES PAR THÈME ===== */
+
+.theme-depliable {
+    background-color: white;
+    border-radius: 18px;
+    padding: 18px 20px;
+    border: 2px solid #dff2e1;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease;
 }
 
-.theme-bloc h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
+.theme-depliable:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.theme-depliable[open] {
+    padding-bottom: 25px;
+}
+
+.theme-depliable summary {
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
     color: #2f5d50;
-    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-depliable summary::-webkit-details-marker {
+    display: none;
+}
+
+.theme-depliable summary::marker {
+    display: none;
+}
+
+.theme-depliable summary::after {
+    content: "▼";
+    font-size: 14px;
+    transition: transform 0.2s ease;
+}
+
+.theme-depliable[open] summary::after {
+    transform: rotate(180deg);
+}
+
+.theme-depliable .chapitres-theme {
+    margin-top: 15px;
 }
 
 /* ===== CHAPITRES ===== */
@@ -328,39 +371,4 @@ hr {
 
 .bloc-droite p {
     margin-bottom: 0;
-}
-
-/* ===== LISTE DEPLIABLE NOTIONS */
-
-.theme-depliable {
-    background-color: #dff2e1;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.theme-depliable summary {
-    font-size: 22px;
-    font-weight: bold;
-    cursor: pointer;
-    color: #2f5d50;
-}
-
-.theme-depliable[open] {
-    padding-bottom: 25px;
-}
-
-.theme-depliable summary {
-    list-style: none;
-}
-
-.theme-depliable summary::marker {
-    display: none;
-}
-
-.theme-depliable summary::after {
-    content: " ▼";
-}
-
-.theme-depliable[open] summary::after {
-    content: " ▲";
 }
