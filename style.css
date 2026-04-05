@@ -265,10 +265,10 @@ hr {
 /* ===== BLOCS DÉPLIABLES PAR THÈME ===== */
 
 .theme-depliable {
-    background-color: white;
+    background-color: #dff2e1; /* full vert */
     border-radius: 18px;
-    padding: 18px 20px;
-    border: 2px solid #dff2e1;
+    padding: 10px;
+    border: none; /* ❌ on enlève le contour */
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.2s ease;
 }
