@@ -293,7 +293,7 @@ hr {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #dff2e1; /* ✅ le vert léger */
+    background-color: #dff2e1;
     padding: 15px 20px;
     border-radius: 12px;
 }
