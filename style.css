@@ -329,3 +329,38 @@ hr {
 .bloc-droite p {
     margin-bottom: 0;
 }
+
+/* ===== LISTE DEPLIABLE NOTIONS */
+
+.theme-depliable {
+    background-color: #dff2e1;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.theme-depliable summary {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #2f5d50;
+}
+
+.theme-depliable[open] {
+    padding-bottom: 25px;
+}
+
+.theme-depliable summary {
+    list-style: none;
+}
+
+.theme-depliable summary::marker {
+    display: none;
+}
+
+.theme-depliable summary::after {
+    content: " ▼";
+}
+
+.theme-depliable[open] summary::after {
+    content: " ▲";
+}
