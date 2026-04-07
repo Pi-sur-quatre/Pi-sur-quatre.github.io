@@ -214,10 +214,22 @@ hr {
 }
 
 /* ===== PAGES DE NIVEAU ===== */
+.header-niveau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.header-niveau .btn-retour {
+    position: absolute;
+    left: 0;
+}
 
 .titre-niveau {
     text-align: center;
-    margin-bottom: 5px;
+    margin: 0;
 }
 
 .intro-niveau {
