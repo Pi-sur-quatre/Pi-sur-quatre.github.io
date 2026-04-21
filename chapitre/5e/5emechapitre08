@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Soustraire deux nombres relatifs</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body class="page-contenu fond-cahier">
+
+<div class="layout">
+
+    <aside class="colonne-gauche">
+        <a href="../../pdf/5e/chapitre08/cours.pdf" class="btn-doc" target="_blank">
+            <img src="../../images/bitmoji-cours.png" alt="Cours">
+            <span>Cours</span>
+        </a>
+
+        <a href="../../pdf/5e/chapitre08/exo1.pdf" class="btn-doc" target="_blank">
+            <img src="../../images/bitmoji-exercices.png" alt="Exercice 1">
+            <span>Exercice 1</span>
+        </a>
+
+        <a href="../../pdf/5e/chapitre08/corr1.pdf" class="btn-doc" target="_blank">
+            <img src="../../images/bitmoji-exercices.png" alt="Correction 1">
+            <span>Correction 1</span>
+        </a>
+
+        <a href="../../pdf/5e/chapitre08/exo2.pdf" class="btn-doc" target="_blank">
+            <img src="../../images/bitmoji-exercices.png" alt="Exercice 2">
+            <span>Exercice 2</span>
+        </a>
+
+        <a href="../../pdf/5e/chapitre08/corr2.pdf" class="btn-doc" target="_blank">
+            <img src="../../images/bitmoji-exercices.png" alt="Correction 2">
+            <span>Correction 2</span>
+        </a>
+
+        <a href="../../pdf/5e/chapitre08/exo3.pdf" class="btn-doc" target="_blank">
+            <img src="../../images/bitmoji-exercices.png" alt="Exercice 3">
+            <span>Exercice 3</span>
+        </a>
+
+        <a href="../../pdf/5e/chapitre08/corr3.pdf" class="btn-doc" target="_blank">
+            <img src="../../images/bitmoji-exercices.png" alt="Correction 3">
+            <span>Correction 3</span>
+        </a>
+
+        <a href="../../pdf/5e/chapitre08/tache.pdf" class="btn-doc" target="_blank">
+            <img src="../../images/bitmoji-taches-complexes.png" alt="Tâche complexe">
+            <span>Tâche complexe</span>
+        </a>
+    </aside>
+
+    <main class="contenu-principal">
+        <h1>Soustraire deux nombres relatifs</h1>
+
+        <h2>À retenir</h2>
+
+        <p><strong>1er cas : même signe</strong></p>
+        <ul>
+            <li>Je garde le signe commun</li>
+            <li>J’additionne les valeurs</li>
+        </ul>
+
+        <p>Exemples :</p>
+        <ul>
+            <li>
+                <span class="positif">(+5)</span> +
+                <span class="positif">(+9)</span> =
+                <span class="positif">+14</span>
+                => Je gagne 5 + Je gagne 9 donc je gagne 14
+            </li>
+            <li>
+                <span class="negatif">(-3)</span> +
+                <span class="negatif">(-4)</span> =
+                <span class="negatif">-7</span>
+                => Je perds 3 + Je perds 4 donc je perds 7
+            </li>
+        </ul>
+
+        <p><strong>2ème cas : signes contraires</strong></p>
+        <ul>
+            <li>Je garde le signe "du plus fort"</li>
+            <li>Je soustrais les valeurs</li>
+        </ul>
+
+        <p>Exemples :</p>
+        <ul>
+            <li>
+                <span class="positif">(+4)</span> +
+                <span class="negatif">(-7)</span> =
+                <span class="negatif">-3</span>
+                => Je gagne 4 + Je perds 7 donc je perds 3
+            </li>
+            <li>
+                <span class="negatif">(-5,6)</span> +
+                <span class="positif">(+3,2)</span> =
+                <span class="negatif">-2,4</span>
+                => Je perds 5,6 + Je gagne 3,2 donc je perds 2,4
+            </li>
+        </ul>
+
+        <p><strong>Cas particulier :</strong></p>
+        <p>Deux nombres opposés ont pour somme 0.</p>
+
+        <ul>
+            <li>(-4) + (+4) = 0 => Donc -4 et +4 sont deux nombres opposés</li>
+        </ul>
+
+        <p><strong>Astuce :</strong></p>
+        <p>
+            On peut changer l’ordre des nombres dans une addition.<br>
+            Et donc calculer ensemble tous les positifs d'un côté et ensemble tous les négatifs de l'autre côté
+        </p>
+
+        <ul>
+            <li>
+                <span class="positif">(+4)</span> +
+                <span class="negatif">(-7)</span> +
+                <span class="negatif">(-3)</span> +
+                <span class="positif">(+15)</span> +
+                <span class="positif">(+1)</span> +
+                <span class="negatif">(-11)</span>
+            </li>
+            <li>
+                <span class="positif">(+4)</span> +
+                <span class="positif">(+15)</span> +
+                <span class="positif">(+1)</span> +
+                <span class="negatif">(-7)</span> +
+                <span class="negatif">(-3)</span> +
+                <span class="negatif">(-11)</span>
+            </li>
+            <li>
+                <span class="positif">(+20)</span> +
+                <span class="negatif">(-21)</span>
+            </li>
+            <li>
+                <span class="negatif">-1</span>
+            </li>
+        </ul>
+
+        <hr>
+        <a href="../../niveaux/5eme.html" class="btn-retour">⬅ Retour aux chapitres</a>
+    </main>
+
+    <aside class="colonne-droite">
+        <div class="bloc-droite">
+
+    <h2>Vidéos</h2>
+
+    <a href="#" class="btn-doc">
+        <img src="../../images/bitmoji-videos.png" alt="Vidéo 1">
+        <span>Capsule 1</span>
+    </a>
+
+    <a href="#" class="btn-doc">
+        <img src="../../images/bitmoji-videos.png" alt="Vidéo 2">
+        <span>Capsule 2</span>
+    </a>
+
+</div>
+    </aside>
+
+</div>
+
+    <footer class="footer">
+    <p>© M. Picard – Usage scolaire et personnel uniquement.</p>
+    </footer>
+    
+</body>
+</html>
