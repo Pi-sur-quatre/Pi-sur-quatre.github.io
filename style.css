@@ -350,6 +350,11 @@ hr {
 
 /* ===== CHAPITRES ===== */
 
+.titre-chapitre {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .positif {
     color: green;
     font-weight: bold;
