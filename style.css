@@ -411,3 +411,72 @@ hr {
 .bloc-droite p {
     margin-bottom: 0;
 }
+
+/* ===== CONTENU DES COURS ===== */
+
+.bloc-cours,
+.bloc-attention {
+    margin: 25px 0;
+    padding: 20px 25px;
+    border-radius: 15px;
+}
+
+.bloc-cours {
+    background-color: #eef7f0;
+}
+
+.bloc-cours h3,
+.bloc-attention h3 {
+    margin-top: 0;
+    color: #1f3c88;
+}
+
+.bloc-cours h4 {
+    margin-bottom: 5px;
+    color: #2f5d50;
+}
+
+.formule {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f3c88;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.bloc-attention {
+    background-color: #fff1f1;
+    border: 2px solid #e7a3a3;
+}
+
+.bloc-attention h3 {
+    color: darkred;
+}
+
+.tableau-responsive {
+    overflow-x: auto;
+}
+
+.tableau-carres {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+}
+
+.tableau-carres th,
+.tableau-carres td {
+    border: 1px solid #9ac7a0;
+    padding: 8px;
+}
+
+.tableau-carres th {
+    background-color: #dff2e1;
+}
+
+.tableau-carres tbody td {
+    color: darkred;
+    font-weight: bold;
+}
