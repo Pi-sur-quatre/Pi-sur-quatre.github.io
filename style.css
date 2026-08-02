@@ -456,7 +456,9 @@ hr {
 }
 
 .tableau-responsive {
+    width: 100%;
     overflow-x: auto;
+    margin-top: 15px;
 }
 
 .tableau-carres {
@@ -464,19 +466,25 @@ hr {
     border-collapse: collapse;
     background-color: white;
     text-align: center;
+    table-layout: fixed;
 }
 
 .tableau-carres th,
 .tableau-carres td {
     border: 1px solid #9ac7a0;
-    padding: 8px;
+    padding: 10px 6px;
+    white-space: nowrap;
 }
 
 .tableau-carres th {
     background-color: #dff2e1;
+    color: #2f5d50;
 }
 
-.tableau-carres tbody td {
-    color: darkred;
+.tableau-carres td {
     font-weight: bold;
+}
+
+.tableau-carres tr:last-child td {
+    color: darkred;
 }
